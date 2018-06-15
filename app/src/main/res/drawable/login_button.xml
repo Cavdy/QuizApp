@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" >
+        <shape>
+            <gradient
+                android:startColor="@color/colorPrimary"
+                android:endColor="@color/colorPrimary" />
+            <corners
+                android:topLeftRadius="150dp"
+                android:bottomLeftRadius="150dp"
+                android:topRightRadius="150dp"
+                android:bottomRightRadius="150dp"
+                />
+            <padding
+                android:left="10dp"/>
+            <stroke
+                android:width="5px"
+                android:color="@color/colorPrimary"/>
+        </shape>
+    </item>
+    <item android:state_focused="true">
+        <shape>
+            <gradient
+                android:startColor="@color/colorPrimary"
+                android:endColor="@color/colorPrimary" />
+            <corners
+                android:topLeftRadius="150dp"
+                android:bottomLeftRadius="150dp"
+                android:topRightRadius="150dp"
+                android:bottomRightRadius="150dp"
+                />
+            <padding
+                android:left="10dp"/>
+            <stroke
+                android:width="5px"
+                android:color="@color/colorPrimary"/>
+        </shape>
+    </item>
+
+    <item>
+        <shape>
+            <gradient
+                android:startColor="@color/colorPrimary"
+                android:endColor="@color/colorPrimary" />
+            <corners
+                android:topLeftRadius="150dp"
+                android:bottomLeftRadius="150dp"
+                android:topRightRadius="150dp"
+                android:bottomRightRadius="150dp"
+                />
+            <padding
+                android:left="10dp"/>
+            <stroke
+                android:width="5px"
+                android:color="@color/colorPrimary"/>
+        </shape>
+    </item>
+</selector>

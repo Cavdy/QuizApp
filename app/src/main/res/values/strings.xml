@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login_in">Log In</string>
+    <string name="forgot_password">Forgot Username?</string>
+    <string name="hello">Hello </string>
+    <string name="quiz_begins">Your Quiz begins in few seconds</string>
+</resources>
